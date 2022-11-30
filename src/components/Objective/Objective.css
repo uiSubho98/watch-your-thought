@@ -1,0 +1,45 @@
+.objective-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.objective-header{
+    font-size: 32px;
+    font-weight: 600;
+}
+.objective-header h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+.content-bullet{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: justify;
+}
+
+.bullet{
+    padding: 0;
+    margin: 0;
+
+    /* border: 2px solid black; */
+}
+.text{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+
+.objective-content{
+    margin-bottom: 16px;
+}
